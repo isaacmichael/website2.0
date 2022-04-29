@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+* {
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.head {
+    display: inline-block;
+    width: 100vw;
+    padding: 2px;
+    text-align: center;
+    vertical-align: center;
+    font-family: Calibri;
+    height: 7vw;
+    background-color: burlywood;
+
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grid {
+    border: 2px blue solid;
+    display: inline-grid;
+    width: 100vw;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-rows: 10vw 7vw 7vw 7vw;
+    background-image: url("./crops.jpg");
+    background-position: center;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.p {
+    border: 2px white solid;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+#p1 {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+}
+#p2 {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 3;
+    grid-row-end: span 4;
+}
+#p3 {
+    grid-column-start: 3;
+    grid-column-end: span 4;
+    grid-row-start: 3;
+    grid-row-end: span 4;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section1 {
+    display: inline-block;
+    border: 2px black solid;
+    width: 100vw;
+
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.section1 p {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: beige;
 }
