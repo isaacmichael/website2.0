@@ -12,27 +12,28 @@ function App() {
           <a href="#summary" class="linkTwo">2</a>
           <a href="#section3" class="linkThree">3</a>
       </div>
+      <div class="main">
       <div class="grid">
-          <p class= "p" id="p1">Item1</p>
+          <p class= "p" id="p1">Drones In Agriculture</p>
           <p class= "p" id="p2">Item2</p>
           <p class= "p" id="p3">Item3</p>
       </div>
       <div class= "section1" id="summary">
           <h2>DETAILED SUMMARY</h2>
           <p>
-              sldmfhnldksjfhlkjdshfjkl<br></br>
+              sldmfhnldksjfhlkjdshfjkl
               sdkjhfgbjdkshfgdkjhsfgkjh
-              skjnhgbdfvbjkhdsgfjkhdsgfkjhdsgkjhfgdshjkfgjhkdsfgkjhdsfgkjhfgdehukjg<br></br>
-              dl;ksfhjlkjdshfkljsdhkjdshklfhjklsdfh<br></br>
-              dskjfhlkjdshflkdshlfkjhdsjklfhds<br></br>
-              dskjfhlkjdshflkdshlfkjhdsjklfhds<br></br>
+              skjnhgbdfvbjkhdsgfjkhdsgfkjhdsgkjhfgdshjkfgjhkdsfgkjhdsfgkjhfgdehukjg
+              dl;ksfhjlkjdshfkljsdhkjdshklfhjklsdfh=
+              dskjfhlkjdshflkdshlfkjhdsjklfhds
+              dskjfhlkjdshflkdshlfkjhdsjklfhds
           </p>
       </div>
 
       <footer>
           footer
       </footer>
-
+      </div>
       </body>
   );
 }
