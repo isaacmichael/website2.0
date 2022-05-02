@@ -1,5 +1,6 @@
 * {
     font-family: "Segoe UI";
+    margin: 0;
 
 }
 
@@ -29,7 +30,7 @@ body {
 
 .main {
     position: relative;
-    top: 180px;
+    top: 140px;
 }
 
 .head h1 {
@@ -87,7 +88,7 @@ body {
     background-position: center center;
 
 
-    background-size: 2000px;
+    background-size: cover;
     background-repeat: no-repeat;
 
 
@@ -146,7 +147,8 @@ body {
 }
 
 .section1 {
-
+    text-align: center;
+    background-color: dimgrey;
 
 
 
