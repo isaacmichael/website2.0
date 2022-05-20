@@ -30,7 +30,7 @@ body {
     border: 2px black solid;
     text-align: center;
     background-color: var(--top-header);
-    opacity: 90%;
+    opacity: 100%;
 
     color: white;
 
@@ -159,7 +159,7 @@ body {
 }
 
 .item3:hover, .item2:hover, .item1:hover {
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 1em black;
 }
 img {
     width: 200px;
