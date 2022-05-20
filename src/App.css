@@ -204,8 +204,13 @@ img {
     color: white;
 }
 
-@media screen and (max-width: 600px) {
-
+@media screen and (max-width: 740px) {
+    #home {
+        font-size: 30px;
+    }
+    #jobDescription {
+        font-size: 15px;
+    }
 
     #AWS, #DEPLOYMENT, #REACT {
         opacity: 0%;
