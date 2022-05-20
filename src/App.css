@@ -3,9 +3,17 @@
     --cards : rgba(255, 255, 255, 0.6);
 }
 
-html {
+html,body {
     font-family: 'Roboto', sans-serif;
-    width: 100vw;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+    line-height: 1.5;
+
+
 }
 
 body {
@@ -182,9 +190,6 @@ body {
     transition: box-shadow 500ms linear 0.2s;
 }
 
-.item3:hover, .item2:hover, .item1:hover {
-    box-shadow: 10px 10px 1em black;
-}
 img {
     width: 200px;
     border-radius: 30px;
@@ -204,7 +209,61 @@ img {
     color: white;
 }
 
-@media screen and (max-width: 740px) {
+
+
+
+
+/* transition section */
+
+.item3:hover, .item2:hover, .item1:hover {
+    box-shadow: 10px 10px 1em black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media section */
+@media screen and (min-width: 100px) and (max-width: 915px) {
     #home {
         font-size: 30px;
     }

@@ -3,6 +3,12 @@ import './App.css';
 
 function App() {
   return (
+      <html>
+      <head>
+          <title>Isaac</title>
+          <meta name="viewport" content="width=device-width ,initial-scale=1"></meta>
+
+      </head>
 
       <body>
       <div class="head">
@@ -19,7 +25,7 @@ function App() {
               <p>Hello, and welcome to my website! Here, I will showcase projects that I am currently working on as well as this website<br></br>
                   Below, will be a mixture of school projects, agricultural analysis and other random things I find interesting.<br></br>
                     <br></br>
-                  This website is stored in Github and deployed through AWS' Amplify service. Each commit triggers a series of events. <br></br>
+                  This static website is stored in Github and deployed through AWS' Amplify service and the DNS is provided by GoDaddy. Each commit triggers a series of events. <br></br>
                   A test will be through Github's Actions for Node.js. After that, the product is sent to AWS and it automatically rebuilt and deployed.
 
               </p>
@@ -62,6 +68,7 @@ function App() {
       </footer>
       </div>
       </body>
+      </html>
   );
 }
 
