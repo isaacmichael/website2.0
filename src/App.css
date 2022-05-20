@@ -263,7 +263,7 @@ img {
 
 
 /* media section */
-@media screen and (min-width: 100px) and (max-width: 915px) {
+@media screen and (min-width: 100px) and (max-width: 1000px) {
     #home {
         font-size: 30px;
     }
