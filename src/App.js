@@ -3,14 +3,14 @@ import './App.css';
 
 function App() {
   return (
-      <html>
+      <body>
       <head>
           <title>Isaac</title>
           <meta name="viewport" content="width=device-width ,initial-scale=1"></meta>
 
       </head>
 
-      <body>
+
       <div class="head">
           <h1 id="home">Isaac Pearson</h1>
           <h1 id="jobDescription">SOFTWARE DEVELOPER</h1>
@@ -30,6 +30,7 @@ function App() {
 
               </p>
           </div>
+          <section>
       <div class="grid">
           <h1>PORTFOLIO</h1>
           <div class="item1">
@@ -69,15 +70,18 @@ function App() {
               <p>Text Describing</p>
           </div>
       </div>
+          </section>
       <div class= "section1" id="summary">
           <h2>ABOUT ME</h2>
           <p>
-              sldmfhnldksjfhlkjdshfjkl
-              sdkjhfgbjdkshfgdkjhsfgkjh
-              skjnhgbdfvbjkhdsgfjkhdsgfkjhdsgkjhfgdshjkfgjhkdsfgkjhdsfgkjhfgdehukjg
-              dl;ksfhjlkjdshfkljsdhkjdshklfhjklsdfh=
-              dskjfhlkjdshflkdshlfkjhdsjklfhds
-              dskjfhlkjdshflkdshlfkjhdsjklfhds
+              I live in Marion, IN with my Wife, Victoria.<br></br>
+              I am a Ball State graduate, Class of 2022 with a B.S in Computer Science. <br></br>
+              In my free time I enjoy reading how to become a better
+              software developer alongside completing courses at Codecademy to sharpen my skills.<br></br>
+              Aside from programming, I operate a consumer grade CNC, 3D model and print, and create high quality orthomosaics (maps) to better show
+              areas of high and low elevation as well as differences in vegetation within farmland.
+
+
           </p>
       </div>
 
@@ -86,7 +90,7 @@ function App() {
       </footer>
       </div>
       </body>
-      </html>
+
   );
 }
 

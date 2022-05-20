@@ -10,6 +10,7 @@ html,body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow: visible;
 
     line-height: 1.5;
 
@@ -188,9 +189,10 @@ img {
 .section1 {
     background-color: #8A978A;
     padding: 100px;
-
+    text-align: center;
     color: white;
 }
+
 
 
 
