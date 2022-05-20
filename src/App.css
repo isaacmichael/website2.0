@@ -1,7 +1,7 @@
 :root {
     --top-header : #333;
 
-    --cards : #17353d;
+    --cards : rgba(255, 255, 255, 0.6);
 }
 
 html {
@@ -16,7 +16,7 @@ body {
 
 
 .head {
-    z-index: 1;
+    z-index: 5;
     display: grid;
     flex-wrap: wrap;
     grid-template-rows: repeat(4, 20px);
@@ -46,6 +46,19 @@ body {
     padding-left: 20px;
 
 }
+.introParagraph {
+    z-index: 4;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(142, 82, 173, 0.73);
+
+    font-size: 2rem;
+    color: white;
+
+    height: 400px;
+
+    box-shadow: 10px 10px 3em grey;
+ }
 
 #jobDescription {
     grid-row: 3 / span 1;
@@ -71,20 +84,21 @@ body {
 
 .main {
     position: relative;
-    top: 105px;
+    top: 110px;
 }
 /*  start cards - end header */
 .grid {
+    z-index: 3;
     display: flex;
     align-content: stretch;
-    justify-content: center;
+    justify-content: space-between;
 
     flex-wrap: wrap;
     text-align: center;
 
     padding: 70px;
     background-color: #add2eb;
-    grid-gap: 10px;
+    grid-gap: 40px;
 
 
 
@@ -95,52 +109,66 @@ body {
 .grid h1 {
     writing-mode: vertical-lr;
     text-orientation: upright;
-    color: white;
-    background-color: var(--cards);
+    color: #17353d;
     border-radius: 30px;
     align-self: stretch;
     justify-self: stretch;
 
-    border-color: white;
+    border-color: #17353d;
     border-width: 7px;
     border-style: solid;
+    box-shadow: 10px 10px 3em grey;
 }
 
 .item1 {
     background-color: var(--cards);
     padding: 20px;
     border-radius: 30px;
-    color: white;
-    border-color: white;
+    color: #17353d;
+    border-color: #17353d;
     border-width: 7px;
     border-style: solid;
+    box-shadow: 10px 10px 2em grey;
+
+    transition: box-shadow 500ms linear 0.2s;
 
 }
 .item2 {
     background-color: var(--cards);
     padding: 20px;
     border-radius: 30px;
-    color: white;
-    border-color: white;
+    color: #17353d;
+    border-color: #17353d;
     border-width: 7px;
     border-style: solid;
+    box-shadow: 10px 10px 3em grey;
+
+    transition: box-shadow 500ms linear 0.2s;
 }
 .item3 {
     background-color: var(--cards);
     padding: 20px;
     border-radius: 30px;
-    color: white;
-    border-color: white;
+    color: #17353d;
+    border-color: #17353d;
     border-width: 7px;
     border-style: solid;
+    box-shadow: 10px 10px 3em grey;
+
+    transition: box-shadow 500ms linear 0.2s;
+}
+
+.item3:hover, .item2:hover, .item1:hover {
+    box-shadow: 10px 10px 10px black;
 }
 img {
     width: 200px;
     border-radius: 30px;
 
-    border-color: white;
+    border-color: #17353d;
     border-width: 2px;
     border-style: solid;
+    box-shadow: 5px 5px 10px black;
 }
 
 /* end flexbox - start paragraphs */

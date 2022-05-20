@@ -12,6 +12,14 @@ function App() {
 
       </div>
       <div class="main">
+          <div class="introParagraph">
+              <p>sldmfhnldksjfhlkjdshfjkl
+                  sdkjhfgbjdkshfgdkjhsfgkjh
+                  skjnhgbdfvbjkhdsgfjkhdsgfkjhdsgkjhfgdshjkfgjhkdsfgkjhdsfgkjhfgdehukjg
+                  dl;ksfhjlkjdshfkljsdhkjdshklfhjklsdfh=
+                  dskjfhlkjdshflkdshlfkjhdsjklfhds
+                  dskjfhlkjdshflkdshlfkjhdsjklfhds</p>
+          </div>
       <div class="grid">
           <h1>PORTFOLIO</h1>
           <div class="item1">
