@@ -10,7 +10,7 @@ function App() {
           <h1 id="jobDescription">SOFTWARE DEVELOPER</h1>
           <p id="REACT">MADE IN REACT</p>
           <p id="AWS">HOSTED BY AWS</p>
-          <p id="DEPLOYMENT">USES CONTINUOUS DEPLOYMENT/TESTING</p>
+          <p id="DEPLOYMENT">USES CONTINUOUS DEPLOYMENT</p>
 
 
       </div>
