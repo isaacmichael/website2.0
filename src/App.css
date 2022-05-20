@@ -34,7 +34,26 @@ body {
 
     color: white;
 
+}
 
+#REACT {
+    //justify-self: end;
+    grid-row: 1 / span 1;
+    grid-column: 4 / span 1;
+    justify-self: right;
+    padding-right: 5%;
+}
+#AWS {
+    grid-row: 2 / span 1;
+    grid-column: 4 / span 1;
+    justify-self: right;
+    padding-right: 5%;
+}
+#DEPLOYMENT {
+    grid-row: 3 / span 1;
+    grid-column: 4 / span 1;
+    justify-self: right;
+    padding-right: 5%;
 }
 
 #home {
@@ -90,8 +109,8 @@ body {
 .grid {
     z-index: 3;
     display: flex;
-    align-content: stretch;
-    justify-content: space-between;
+    align-content: center;
+    justify-content: space-evenly;
 
     flex-wrap: wrap;
     text-align: center;
@@ -111,8 +130,7 @@ body {
     text-orientation: upright;
     color: #17353d;
     border-radius: 30px;
-    align-self: stretch;
-    justify-self: stretch;
+
 
     border-color: #17353d;
     border-width: 7px;
