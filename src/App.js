@@ -88,7 +88,10 @@ function App() {
       </div>
 
       <footer class="footer">
-          <br></br>
+          <span>
+              <p>Isaac Pearson</p>
+              <p>5/20/21</p>
+          </span>
       </footer>
       </div>
       </body>
