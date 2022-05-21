@@ -16,7 +16,7 @@ function App() {
           <h1 id="jobDescription">SOFTWARE DEVELOPER</h1>
           <p id="REACT">MADE IN REACT</p>
           <p id="AWS">HOSTED BY AWS</p>
-          <p id="DEPLOYMENT">USES CONTINUOUS DEPLOYMENT</p>
+          <p id="DEPLOYMENT">CONTINUOUSLY DEPLOYED</p>
 
 
       </div>
@@ -32,40 +32,40 @@ function App() {
           </div>
           <section>
       <div class="grid">
-          <h1>PORTFOLIO</h1>
+
           <div class="item1">
             <p>Pirate Adventure</p>
-              <img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Variables/Lesson/band1.jpg" alt=""
+              <img src="https://th.bing.com/th/id/R.4f3b37b37b55aed0c11c64cc915cf0b7?rik=jkCsmuSEw1YE2Q&riu=http%3a%2f%2fzeptosystems.com%2fwp-content%2fuploads%2f2018%2f10%2fjava-1.jpg&ehk=HovaxzZAqHPCIjSELmwew9GO%2b5dvz2XtBgAezfMtUzA%3d&risl=&pid=ImgRaw&r=0" alt=""
                    className="featured-img"></img>
               <p>Text Describing</p>
           </div>
           <div className="item2">
               <p>Bug Tracker</p>
-              <img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Variables/Lesson/band1.jpg" alt=""
+              <img src="https://th.bing.com/th/id/R.98bc05b18a4eec5695a48743ed4d19d0?rik=iubQYreSbHWB3Q&riu=http%3a%2f%2fgetdrawings.com%2ffree-icon%2fsoftware-bug-icon-62.png&ehk=DdZ75HyCAq2DViJTdRxjkm8qC7dp3SSzQfQ5VcAg2qY%3d&risl=&pid=ImgRaw&r=0" alt=""
                    className="featured-img"></img>
               <p>Text Describing</p>
           </div>
           <div className="item3">
               <p>Lead Sigma Onboarding</p>
-              <img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Variables/Lesson/band1.jpg" alt=""
+              <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/i2z8uizotory1rtc3nay" alt=""
                    className="featured-img"></img>
               <p>Text Describing</p>
           </div>
           <div className="item4">
               <p>MySQL database</p>
-              <img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Variables/Lesson/band1.jpg" alt=""
+              <img src="https://th.bing.com/th/id/R.4de0f3ba21ff9e7a4a74731d7e85b066?rik=azi2%2bcqlmhgugQ&riu=http%3a%2f%2f24x7servermanagement.com%2fwp-content%2fuploads%2f2016%2f09%2fmysql-logo.jpg&ehk=1KikdiB3AYF9Nsh1Fd%2fnw1I27VDdBD9FI%2f2%2fOpVVJDM%3d&risl=&pid=ImgRaw&r=0" alt=""
                    className="featured-img"></img>
               <p>Text Describing</p>
           </div>
           <div className="item5">
               <p>Itunes API</p>
-              <img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Variables/Lesson/band1.jpg" alt=""
+              <img src="https://th.bing.com/th/id/R.bff36f9b869fa25287ec69b06eb47224?rik=FmPo2Xqfn7fOZw&riu=http%3a%2f%2fwww.georgegaldorisi.com%2fwp-content%2fuploads%2fiTunes-Store-icon.png&ehk=4wqaFdI6mThJbegQD8oNvBCNzbkMrjdKDNNgQ4wPA88%3d&risl=&pid=ImgRaw&r=0" alt=""
                    className="featured-img"></img>
               <p>Text Describing</p>
           </div>
           <div className="item6">
               <p>Machine Learning</p>
-              <img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Variables/Lesson/band1.jpg" alt=""
+              <img src="https://th.bing.com/th/id/R.9a8bd0fa820cc069f049829e093c016e?rik=NvH0xe7mTUlgvQ&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f289-2896071_python-logo-png-165709.png&ehk=aW7Pb2gc%2bysSZQp61jQfl77%2fq7MPVUC%2fFeEA%2bQt0R5I%3d&risl=&pid=ImgRaw&r=0" alt=""
                    className="featured-img"></img>
               <p>Text Describing</p>
           </div>
@@ -85,8 +85,8 @@ function App() {
           </p>
       </div>
 
-      <footer>
-          footer
+      <footer class="footer">
+          <br></br>
       </footer>
       </div>
       </body>

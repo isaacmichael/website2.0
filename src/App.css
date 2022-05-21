@@ -1,6 +1,7 @@
 :root {
     --top-header : #697b8d;
     --cards : rgba(255, 255, 255, 0.6);
+    --top-right : .75rem;
 }
 
 html,body {
@@ -42,6 +43,11 @@ body {
     opacity: 100%;
 
     color: white;
+    box-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+    0 3px  30px rgba(0, 0, 0, 0.5);;
+
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+    0 3px  30px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -50,34 +56,37 @@ body {
     grid-row: 1 / span 1;
     grid-column: 4 / span 1;
     justify-self: right;
-    padding-right: 5%;
+    padding-right: 10%;
 
-    font-size: 1rem;
+    font-size: var(--top-right);
 }
 #AWS {
     grid-row: 2 / span 1;
     grid-column: 4 / span 1;
     justify-self: right;
-    padding-right: 5%;
+    padding-right: 10%;
 
-    font-size: 1rem;
+    font-size: var(--top-right);
 }
 #DEPLOYMENT {
     grid-row: 3 / span 1;
     grid-column: 4 / span 1;
     justify-self: right;
-    padding-right: 5%;
+    padding-right: 10%;
 
-    font-size: 1rem;
+    font-size: var(--top-right);
 }
 
 #home {
     grid-row: 1 / span 1;
     grid-column: 1 / span 3;
 
-    font-size: 40px;
+    font-size: 2rem;
     justify-self: left;
-    padding-left: 20px;
+    padding-left: 25px;
+
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+    0 3px  30px rgba(0, 0, 0, 0.5);
 
 }
 .introParagraph {
@@ -86,12 +95,14 @@ body {
     padding: 20px;
     background-color: rgba(147, 127, 81, 0.57);
 
-    font-size: 30px;
+    font-size: 1rem;
     color: white;
 
     height: 10%;
 
     box-shadow: 10px 10px 3em grey;
+
+
  }
 
 #jobDescription {
@@ -127,8 +138,10 @@ body {
     align-content: center;
     justify-content: space-evenly;
 
+
     flex-wrap: wrap;
     text-align: center;
+    font-size: 1rem;
 
     padding: 70px;
     background-color: #add2eb;
@@ -136,7 +149,6 @@ body {
 
 
 
-    font-size: 30px;
 
 }
 
@@ -150,31 +162,36 @@ body {
 
 
     border-color: #17353d;
-    border-width: 4px;
+    border-width: 2px;
     border-style: solid;
     box-shadow: 10px 10px 3em grey;
 }
 
 .item1 , .item2, .item3, .item4, .item5, .item6 {
+
+    text-shadow: 2px 2px 5px grey;
+    margin: 5px;
     opacity: 95%;
     background-color: var(--cards);
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 30px 30px 0 30px;
     color: #17353d;
-    border-color: #17353d;
-    border-width: 4px;
-    border-style: solid;
+
+
     box-shadow: 10px 10px 2em grey;
 
     transition: box-shadow 500ms linear 0.2s,
-    opacity 500ms linear 0.2s;
+    opacity 500ms linear 0.2s,
+    padding 1500ms ease-in-out 0.2s;
+
+
 
 
 }
 
 img {
     width: 200px;
-    border-radius: 30px;
+    border-radius: 30px 30px 0 30px;
 
     border-color: #17353d;
     border-width: 2px;
@@ -198,11 +215,19 @@ img {
 
 
 
+
+.footer {
+    background-color: #697b8d;
+}
+
+
+
 /* transition section */
 
-.item3:hover, .item2:hover, .item1:hover {
+.item3:hover, .item2:hover, .item1:hover, .item4:hover, .item5:hover, .item6:hover {
     box-shadow: 10px 10px 1em black;
     opacity: 100%;
+    padding: 100px;
 }
 
 
