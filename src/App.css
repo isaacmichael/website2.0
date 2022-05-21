@@ -51,8 +51,7 @@ body {
     box-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
     0 3px  30px rgba(0, 0, 0, 0.5);;
 
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
-    0 3px  30px rgba(0, 0, 0, 0.5);
+
 
 }
 
@@ -95,20 +94,36 @@ body {
 
 }
 .introParagraph {
+    position: relative;
+    top: 65px;
     z-index: 4;
     text-align: center;
     padding: 20px;
     background-color: var(--first-row);
 
-    font-size: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+
+    margin: 0 auto;
 
 
     height: 10%;
 
-    box-shadow: 10px 10px 3em grey;
-
-
  }
+
+#portfolio {
+    color: white;
+    font-size: 2.5em;
+    position: relative;
+    top: 105px;
+    text-align: center;
+
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+    0 3px  30px rgba(0, 0, 0, 0.5);
+
+
+
+}
 
 #jobDescription {
     grid-row: 3 / span 1;
@@ -117,6 +132,9 @@ body {
     font-size: 20px;
     justify-self: left;
     padding-left: 25px;
+
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+    0 3px  30px rgba(0, 0, 0, 0.5);
 }
 
 #intro {
@@ -170,6 +188,10 @@ body {
 }
 
 .item1 , .item2, .item3, .item4, .item5, .item6 {
+    max-width: 400px;
+
+    overflow-wrap: break-word;
+    font-weight: bold;
 
     text-shadow: 2px 2px 5px grey;
     margin: 10px;
@@ -209,6 +231,8 @@ img {
     padding: 100px;
     text-align: center;
 
+    font-weight: bold;
+
 }
 
 
@@ -218,10 +242,21 @@ img {
 
 
 .footer {
+
+    font-weight: bold;
     background-color: #697b8d;
-    height: 200px;
 
     display: flex;
+
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+
+    height: 200px;
+}
+
+.footer p {
+    margin: 5px;
 }
 
 
