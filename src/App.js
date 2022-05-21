@@ -1,5 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+import logo from './Studio-Project.png'
 
 function App() {
   return (
@@ -35,7 +37,7 @@ function App() {
 
           <div class="item1">
             <p>Pirate Adventure</p>
-              <img src="https://th.bing.com/th/id/R.4f3b37b37b55aed0c11c64cc915cf0b7?rik=jkCsmuSEw1YE2Q&riu=http%3a%2f%2fzeptosystems.com%2fwp-content%2fuploads%2f2018%2f10%2fjava-1.jpg&ehk=HovaxzZAqHPCIjSELmwew9GO%2b5dvz2XtBgAezfMtUzA%3d&risl=&pid=ImgRaw&r=0" alt=""
+              <img src={logo} alt="nothing" width="100" height="auto"
                    className="featured-img"></img>
               <p>Text Describing</p>
           </div>
