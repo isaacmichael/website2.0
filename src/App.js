@@ -21,6 +21,7 @@ function App() {
           <p id="DEPLOYMENT">CONTINUOUSLY DEPLOYED</p>
 
 
+
       </div>
       <div class="main">
           <div class="introParagraph">
@@ -32,6 +33,8 @@ function App() {
 
               </p>
           </div>
+          <h2 id="portfolio">PORTFOLIO</h2>
+
           <section>
       <div class="grid">
 
@@ -51,7 +54,12 @@ function App() {
               <p>Lead Sigma Onboarding</p>
               <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/i2z8uizotory1rtc3nay" alt=""
                    className="featured-img"></img>
-              <p>Text Describing</p>
+              <p>
+                  Helped create and maintain a microservice for Lead Sigma in 5 iterations using an Agile Methodology.
+                  Worked with Ruby on Rails to create an API with a MYSQL database for tracking
+                  subscriptions and their features uses (calls, texts, emails).
+                  Implemented API into existing REACT UI to track usage of a given subscription for payment
+              </p>
           </div>
           <div className="item4">
               <p>MySQL database</p>
@@ -88,7 +96,10 @@ function App() {
       </div>
 
       <footer class="footer">
-          <br></br>
+
+              <p>Isaac Pearson</p>
+              <p>5/20/21</p>
+
       </footer>
       </div>
       </body>
