@@ -9,7 +9,7 @@
 }
 
 html,body {
-    font-family: sans-serif;
+    font-family: "Segoe UI";
 
     width: 100%;
     height: 100%;
@@ -94,22 +94,41 @@ body {
 
 }
 .introParagraph {
-    position: relative;
-    top: 65px;
-    z-index: 4;
-    text-align: center;
-    padding: 20px;
-    background-color: var(--first-row);
 
+    height: 600px;
+
+
+    position: relative;
+    top: 0px;
+    z-index: 4;
+
+    text-align: center;
+
+    padding: 20px;
+    background-image: url("https://lh3.googleusercontent.com/AZ6Mn81aRZVK9Nk1_3uwGGQxutxztTgr5umFK6oHqtIqwL74ycOSoo4H76ujj12Ytbil-MKBaxCMccvXMiXBmTwRXbGytYOHXWD3ATMt3K9FnitEAdYhKSnY6HEUPBHXTN7aggXFkaSA1SsvV-CcpmfKcoOc0blupeDQerrc64TdPTC-JfWmfwXNt5_xE-43jMqcnksI1FTuPtw6qib59LRF75lm-H0_h4eGCT3sZIj-cSNPqEhluCcgt3MYl-qsyegs_gQ71zhn1nnWERaRklqKu3fnTXXsT_Walghcwmmwy8XR5cIl-11HNBl3zeeT_S0uwHZEkRjmmY9FkQJ653H4kC5ppenWcPn0W63XzRVnqoeYlrmwkEjjt9H5Y4A6JY_YIM8OxfWi1JGuTgd8KrNJ6hz33eqNgVoJU41STlEfrUk8v8KBumzLHMArAZB1g53jptQUQM4fBiNQyCLL48p_JeLDvo6uISWFseShHv1Bsatsh5kcvkxqnpvwLPTUQ-P4_gWopQJQwxKNR3r84h2ccGhu0WYCzk-JCZCdrtnDM1AY9xSLClFVfiZGAMwuZIuYwefG4WjRRNNtCFJ3Uha6DZIL2uYWMSTAmIJcWG0c9_x0geNIOosun1TZzgbVm_WEXdT2iXfm2neVwfRDnmx09Y5m-xlj-ILw30l3ZK3LZ5fOuHgpmC8d9X8UaXmJ92y28VC5fqwrwF0SMU10qmXjAgQIfAU_bjqgSz2thGSaTRdp4r4LYIPmeOY=w1278-h719-no?authuser=0");
+    background-position-x: right;
+    background-size: cover;
+
+    color: #ffffff;
     font-size: 1.25rem;
     font-weight: 600;
 
-    margin: 0 auto;
-
-
-    height: 10%;
-
+    padding: 50px;
  }
+
+.introParagraph h1 {
+
+    font-size: 5rem;
+
+    font-family: "Segoe UI";
+    text-shadow: 0 2px 0 #ccc, 0 2px 0 #ccc,
+    0 3px  30px rgba(0, 0, 0, 100%);
+
+
+}
+
+
+
 
 #portfolio {
     color: white;
@@ -315,7 +334,7 @@ img {
 
 
 /* media section */
-@media screen and (min-width: 100px) and (max-width: 1000px) {
+@media screen and (min-width: 100px) and (max-width: 800px) {
     #home {
         font-size: 30px;
     }
@@ -339,6 +358,10 @@ img {
 
     .grid {
         grid-gap: 2px;
+    }
+
+    .introParagraph h1 {
+        font-size: 20px;
     }
 
 

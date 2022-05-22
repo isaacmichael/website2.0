@@ -25,13 +25,9 @@ function App() {
       </div>
       <div class="main">
           <div class="introParagraph">
-              <p>Hello, and welcome to my website! Here, I will showcase projects that I am currently working on as well as this website<br></br>
-                  Below, will be a mixture of school projects, agricultural analysis and other random things I find interesting.<br></br>
-                    <br></br>
-                  This static website is stored in Github and deployed through AWS' Amplify service and the DNS is provided by GoDaddy. Each commit triggers a series of events. <br></br>
-                  A test will be through Github's Actions for Node.js. After that, the product is sent to AWS and it automatically rebuilt and deployed.
-
-              </p>
+              <h1>SOFTWARE SOLUTIONS</h1>
+              <h1>PRESCRIPTION MAPPING</h1>
+              <h1>CNC MACHINING</h1>
           </div>
           <h2 id="portfolio">PORTFOLIO</h2>
 
