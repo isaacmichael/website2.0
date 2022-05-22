@@ -1,7 +1,7 @@
 
 import './App.css';
 
-import logo from './Studio-Project.png'
+import logo from './photos/Studio-Project.png'
 
 function App() {
   return (
