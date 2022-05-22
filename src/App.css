@@ -5,7 +5,7 @@
 
     --first-row : white;
     --second-row : #4c7096;
-    --third-row : white;
+    --third-row : rgba(147, 127, 81, 0.57);
 }
 
 html,body {
@@ -89,7 +89,7 @@ body {
     justify-self: left;
     padding-left: 25px;
 
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #000000,
     0 3px  30px rgba(0, 0, 0, 0.5);
 
 }
@@ -122,7 +122,7 @@ body {
     font-size: 5rem;
 
     font-family: "Segoe UI";
-    text-shadow: 0 2px 0 #ccc, 0 2px 0 #ccc,
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #000000,
     0 3px  30px rgba(0, 0, 0, 100%);
 
 
@@ -137,8 +137,8 @@ body {
 
     text-align: center;
 
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
-    0 3px  30px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #000000,
+    0 3px  30px rgb(0, 0, 0);
 
     background: #4c7096;
     margin: 0px;
@@ -157,7 +157,7 @@ body {
     justify-self: left;
     padding-left: 25px;
 
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #000000,
     0 3px  30px rgba(0, 0, 0, 0.5);
 }
 
@@ -218,24 +218,24 @@ body {
     font-weight: bold;
     font-size: 20px;
 
-    text-shadow: 2px 2px 5px grey;
+    text-shadow: 1px 1px 0px #000000;
     margin: 10px;
     opacity: 95%;
     background-color: var(--cards);
     padding: 20px;
 
-    border-radius: 0px;
+    border-radius: 10px;
 
     color: #17353d;
 
 
-    box-shadow: 10px 10px 2em grey;
+    box-shadow: 10px 10px 2em black;
 
     transition: box-shadow 1s linear 0.2s,
-    opacity 500ms linear 0.2s,
-    padding 1s ease-in 0.1s,
-    margin 1s ease-in 0.1s,
-    border-radius .5s ease-in 0.1s;
+    opacity 500ms linear 0.1s,
+    padding .550ms ease-in 0.1s,
+    margin .550ms ease-in 0.1s,
+    border-radius .550ms ease-in 0.1s;
 }
 
 img {
@@ -256,14 +256,19 @@ img {
     padding: 100px;
     text-align: center;
 
+    color: white;
+    font-size: 20px;
     font-weight: bold;
+
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #000000,
+    0 3px  30px rgba(0, 0, 0, 0.5);
 
 }
 
 
 
 .footer {
-
+    font-size: 18px;
     font-weight: bold;
     background-color: #697b8d;
 
@@ -289,7 +294,7 @@ img {
     opacity: 100%;
     padding: 30px;
     margin: 0px;
-    border-radius: 10px;
+
 }
 
 
@@ -349,7 +354,6 @@ img {
     }
 
     .introParagraph {
-        font-size: 15px;
         height: 200px;
     }
     .grid h1 {
@@ -364,7 +368,7 @@ img {
     }
 
     .introParagraph h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
 
