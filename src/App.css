@@ -1,10 +1,10 @@
 :root {
-    --top-header : #4c7096;
-    --cards : rgba(255, 255, 255, 0.6);
+    --top-header : #1e6698;
+    --cards : rgba(255, 255, 255, 0.49);
     --top-right : .75rem;
 
     --first-row : white;
-    --second-row : #4c7096;
+    --second-row : #1e6698;
     --third-row : rgba(147, 127, 81, 0.57);
 }
 
@@ -107,7 +107,7 @@ body {
 
     padding: 20px;
     background-image: url("./photos/field.jpg");
-    filter: contrast(110%) brightness(1.1);
+    filter: contrast(120%) brightness(110%);
 
 
     background-position-x: right;
@@ -143,9 +143,17 @@ body {
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #000000,
     0 3px  30px rgb(0, 0, 0);
 
-    background: #4c7096;
+    background: var(--second-row);
     margin: 0px;
+    padding-top: 20px;
     height: 50px;
+
+    border-top: var(--cards) solid 20px;
+
+    position: sticky;
+
+
+
 
 
 
@@ -215,7 +223,7 @@ body {
 }
 
 .item1 , .item2, .item3, .item4, .item5, .item6 {
-    max-width: 400px;
+    max-width: 90%;
 
     overflow-wrap: break-word;
     font-weight: bold;
@@ -223,7 +231,7 @@ body {
 
     text-shadow: 1px 1px 0px #000000;
     margin: 10px;
-    opacity: 95%;
+    opacity: 90%;
     background-color: var(--cards);
     padding: 20px;
 
@@ -236,14 +244,14 @@ body {
 
     transition: box-shadow 1s linear 0.2s,
     opacity 500ms linear 0.1s,
-    padding 1s ease-in 0.1s,
-    margin 1s ease-in 0.1s,
+    padding .4s ease-in 0.1s,
+    margin .4s ease-in 0.1s,
     box-shadow 1s ease-in 0.1s,
     border-radius 1ms linear 1s;
 }
 
 img {
-    width: 200px;
+    width: 250px;
     border-radius: inherit;
 
     border-color: #17353d;
@@ -252,6 +260,25 @@ img {
     box-shadow: 5px 5px 10px black;
     opacity: inherit;
 }
+
+
+/*image adjustments */
+
+
+#pirate2 {
+    width: 95%;
+}
+
+
+#leadSigma2 {
+    width: 95%;
+}
+
+#sql1 {
+    width: 95%;
+}
+
+
 
 /* end flexbox - start paragraphs */
 
@@ -294,8 +321,8 @@ img {
 /* transition section */
 
 .item3:hover, .item2:hover, .item1:hover, .item4:hover, .item5:hover, .item6:hover {
-    box-shadow: 10px 10px 2px black;
-    border-radius: 2px 0px 0px 2px;
+    box-shadow: 10px 10px 25px black;
+
     opacity: 100%;
     padding: 30px;
     margin: 0px;

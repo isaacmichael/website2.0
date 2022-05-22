@@ -1,7 +1,13 @@
 
 import './App.css';
 
-import logo from './photos/Studio-Project.png'
+import pirate1 from './photos/Studio-Project.png'
+import pirate2 from './photos/pirate1.jpg'
+
+import SQL from './photos/SQLDatabase.jpg'
+
+import leadSigma from './photos/leadSigma1.png'
+
 
 function App() {
   return (
@@ -36,9 +42,10 @@ function App() {
 
           <div class="item1">
             <p>Pirate Adventure</p>
-              <img src={logo} alt="nothing" width="100" height="auto"
+              <img src="https://anthoncode.com/wp-content/uploads/2019/01/java-logo-png.png" alt="nothing" width="100" height="auto"
                    className="featured-img"></img>
               <p>Created during the first semester in sophomore year with a team of three. Written in Java, JavaFX for UI</p>
+              <img id="pirate2" src={pirate2} />
           </div>
           <div className="item2">
               <p>Bug Tracker</p>
@@ -48,7 +55,7 @@ function App() {
           </div>
           <div className="item3">
               <p>Lead Sigma Onboarding</p>
-              <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/i2z8uizotory1rtc3nay" alt=""
+              <img id="leadSigma1" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/i2z8uizotory1rtc3nay" alt=""
                    className="featured-img"></img>
               <p>
                   Helped create and maintain a microservice for Lead Sigma in 5 iterations using an Agile Methodology.
@@ -56,18 +63,20 @@ function App() {
                   subscriptions and their features uses (calls, texts, emails).
                   Implemented API into existing REACT UI to track usage of a given subscription for payment
               </p>
+              <img id="leadSigma2" src={leadSigma}/>
           </div>
           <div className="item4">
-              <p>MySQL database</p>
-              <img src="https://th.bing.com/th/id/R.4de0f3ba21ff9e7a4a74731d7e85b066?rik=azi2%2bcqlmhgugQ&riu=http%3a%2f%2f24x7servermanagement.com%2fwp-content%2fuploads%2f2016%2f09%2fmysql-logo.jpg&ehk=1KikdiB3AYF9Nsh1Fd%2fnw1I27VDdBD9FI%2f2%2fOpVVJDM%3d&risl=&pid=ImgRaw&r=0" alt=""
+              <p>Oracle Database</p>
+              <img src="https://th.bing.com/th/id/R.f8b2bf7eb9f8a1ee124902bdc5da87ac?rik=jhQZ7841qr8Ywg&riu=http%3a%2f%2ferpinnews.com%2fwp-content%2fuploads%2f2017%2f10%2foracle-logo.png&ehk=U2x6i5WYcgGzSdSgE3UbWdJFgqaV9UyGA6xcg5F0Ffo%3d&risl=&pid=ImgRaw&r=0" alt=""
                    className="featured-img"></img>
               <p>Created a database sophomore year to keep track of a factory's inventory</p>
+              <img id="sql1" src={SQL} width='500px'/>
           </div>
           <div className="item5">
               <p>Itunes API</p>
               <img src="https://th.bing.com/th/id/R.bff36f9b869fa25287ec69b06eb47224?rik=FmPo2Xqfn7fOZw&riu=http%3a%2f%2fwww.georgegaldorisi.com%2fwp-content%2fuploads%2fiTunes-Store-icon.png&ehk=4wqaFdI6mThJbegQD8oNvBCNzbkMrjdKDNNgQ4wPA88%3d&risl=&pid=ImgRaw&r=0" alt=""
                    className="featured-img"></img>
-              <p>Created a Web application in ASP.net to search and retireve data from Itunes' API</p>
+              <p>Created a Web application in ASP.net to search and retrieve data from Itunes' API</p>
           </div>
           <div className="item6">
               <p>Machine Learning</p>
