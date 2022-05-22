@@ -106,7 +106,10 @@ body {
     text-align: center;
 
     padding: 20px;
-    background-image: url("./photos/crops.jpg");
+    background-image: url("./photos/field.jpg");
+    filter: contrast(110%) brightness(1.1);
+
+
     background-position-x: right;
     background-size: cover;
 
