@@ -18,7 +18,7 @@ html,body {
     overflow-x: hidden;
     overflow: visible;
 
-    line-height: 1.5;
+
 }
 
 
@@ -102,6 +102,7 @@ body {
     top: 0px;
     z-index: 4;
 
+
     text-align: center;
 
     padding: 20px;
@@ -132,13 +133,17 @@ body {
 
 #portfolio {
     color: white;
-    font-size: 2.5em;
-    position: relative;
-    top: 105px;
+    font-size: 4.5em;
+
     text-align: center;
 
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
     0 3px  30px rgba(0, 0, 0, 0.5);
+
+    background: #4c7096;
+    margin: 0px;
+    height: 50px;
+
 
 
 
@@ -211,6 +216,7 @@ body {
 
     overflow-wrap: break-word;
     font-weight: bold;
+    font-size: 20px;
 
     text-shadow: 2px 2px 5px grey;
     margin: 10px;
@@ -253,10 +259,6 @@ img {
     font-weight: bold;
 
 }
-
-
-
-
 
 
 
@@ -334,7 +336,7 @@ img {
 
 
 /* media section */
-@media screen and (min-width: 100px) and (max-width: 800px) {
+@media screen and (min-width: 100px) and (max-width: 1000px) {
     #home {
         font-size: 30px;
     }
@@ -348,6 +350,7 @@ img {
 
     .introParagraph {
         font-size: 15px;
+        height: 200px;
     }
     .grid h1 {
         font-size: 50px;
@@ -361,7 +364,7 @@ img {
     }
 
     .introParagraph h1 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
 
