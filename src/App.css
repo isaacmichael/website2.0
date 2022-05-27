@@ -1,5 +1,5 @@
 :root {
-    --top-header : #1e6698;
+    --top-header : #154269;
     --cards : rgba(61, 57, 57, 0.87);
     --top-right : .75rem;
 
@@ -95,7 +95,16 @@ body {
 }
 .introParagraph {
 
-    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    height: 70vh;
 
 
     position: relative;
@@ -103,17 +112,18 @@ body {
     z-index: 4;
 
 
-    text-align: center;
 
-    padding: 20px;
+
+
+
     background-image: url("./photos/field.jpg");
     filter: contrast(140%) brightness(100%);
 
-    background-position-x: right;
+
     background-size: cover;
 
     color: #ffffff;
-    font-size: 1.25rem;
+
     font-weight: 600;
 
     padding: 50px;
@@ -413,10 +423,10 @@ button:hover {
     }
 
     .introParagraph {
-        height: 200px;
+        height: 70vh;
     }
     .introParagraph h1 {
-        font-size: 30px;
+        font-size: 3rem;
     }
 
     .grid h1 {
