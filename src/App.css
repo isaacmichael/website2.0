@@ -415,6 +415,10 @@ button:hover {
     .introParagraph {
         height: 200px;
     }
+    .introParagraph h1 {
+        font-size: 30px;
+    }
+
     .grid h1 {
         font-size: 50px;
         writing-mode: horizontal-tb;
@@ -426,9 +430,11 @@ button:hover {
         grid-gap: 2px;
     }
 
-    .introParagraph h1 {
-        font-size: 30px;
+    .item1, .item2, .item3, .item4, .item5, .item6 {
+        width: 100%;
+
     }
+
 
 
 }
