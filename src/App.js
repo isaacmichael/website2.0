@@ -46,13 +46,21 @@ function App() {
                    className="featured-img"></img>
               <p>Created during the first semester in sophomore year with a team of three. Written in Java, JavaFX for UI</p>
               <img id="pirate2" src={pirate2} />
+              <a href={'https://github.com/isaacmichael/Adventure-Game/tree/main/TeamEPirateAdventure2.0'} target={'_blank'}>
+                  <button>Github Link</button>
+              </a>
           </div>
+
           <div className="item2">
               <p>Bug Tracker</p>
-              <img src="https://th.bing.com/th/id/R.98bc05b18a4eec5695a48743ed4d19d0?rik=iubQYreSbHWB3Q&riu=http%3a%2f%2fgetdrawings.com%2ffree-icon%2fsoftware-bug-icon-62.png&ehk=DdZ75HyCAq2DViJTdRxjkm8qC7dp3SSzQfQ5VcAg2qY%3d&risl=&pid=ImgRaw&r=0" alt=""
+              <img src="https://th.bing.com/th/id/R.95307d1659e1cb5122fe2d28b0d12ea8?rik=%2fPxCJe%2bFcVTfdg&riu=http%3a%2f%2fwww.sjcnet.co.uk%2fcontent%2fimages%2f2016%2f05%2fAspDotNet.png&ehk=P8aHZ9bIBsD%2fFRmwr%2f703h4YC6KiMAo9DZquYS%2fpzbY%3d&risl=&pid=ImgRaw&r=0" alt=""
                    className="featured-img"></img>
               <p>Created a bug tracker with ASP.net web application. Uses Microsoft Database and encrypted all sensitive data</p>
+              <a href={'https://github.com/isaacmichael/Web-Programming-Midterm/tree/master/MidtermProject'} target={'_blank'}>
+                <button>Github Link</button>
+              </a>
           </div>
+
           <div className="item3">
               <p>Lead Sigma Onboarding</p>
               <img id="leadSigma1" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/i2z8uizotory1rtc3nay" alt=""
@@ -64,20 +72,32 @@ function App() {
                   Implemented API into existing REACT UI to track usage of a given subscription for payment
               </p>
               <img id="leadSigma2" src={leadSigma}/>
+              <a href={''} target={'_blank'}>
+                  <button>Github Link</button>
+              </a>
           </div>
+
           <div className="item4">
               <p>Oracle Database</p>
               <img src="https://th.bing.com/th/id/R.f8b2bf7eb9f8a1ee124902bdc5da87ac?rik=jhQZ7841qr8Ywg&riu=http%3a%2f%2ferpinnews.com%2fwp-content%2fuploads%2f2017%2f10%2foracle-logo.png&ehk=U2x6i5WYcgGzSdSgE3UbWdJFgqaV9UyGA6xcg5F0Ffo%3d&risl=&pid=ImgRaw&r=0" alt=""
                    className="featured-img"></img>
               <p>Created a database sophomore year to keep track of a factory's inventory</p>
               <img id="sql1" src={SQL} width='500px'/>
+              <a href={''} target={'_blank'}>
+                  <button>Github Link</button>
+              </a>
           </div>
+
           <div className="item5">
               <p>Itunes API</p>
-              <img src="https://th.bing.com/th/id/R.bff36f9b869fa25287ec69b06eb47224?rik=FmPo2Xqfn7fOZw&riu=http%3a%2f%2fwww.georgegaldorisi.com%2fwp-content%2fuploads%2fiTunes-Store-icon.png&ehk=4wqaFdI6mThJbegQD8oNvBCNzbkMrjdKDNNgQ4wPA88%3d&risl=&pid=ImgRaw&r=0" alt=""
+              <img src="https://th.bing.com/th/id/R.95307d1659e1cb5122fe2d28b0d12ea8?rik=%2fPxCJe%2bFcVTfdg&riu=http%3a%2f%2fwww.sjcnet.co.uk%2fcontent%2fimages%2f2016%2f05%2fAspDotNet.png&ehk=P8aHZ9bIBsD%2fFRmwr%2f703h4YC6KiMAo9DZquYS%2fpzbY%3d&risl=&pid=ImgRaw&r=0" alt=""
                    className="featured-img"></img>
               <p>Created a Web application in ASP.net to search and retrieve data from Itunes' API</p>
+              <a href={''} target={'_blank'}>
+                  <button>Github Link</button>
+              </a>
           </div>
+
           <div className="item6">
               <p>Machine Learning</p>
               <img src="https://th.bing.com/th/id/R.9a8bd0fa820cc069f049829e093c016e?rik=NvH0xe7mTUlgvQ&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f289-2896071_python-logo-png-165709.png&ehk=aW7Pb2gc%2bysSZQp61jQfl77%2fq7MPVUC%2fFeEA%2bQt0R5I%3d&risl=&pid=ImgRaw&r=0" alt=""
@@ -85,6 +105,9 @@ function App() {
               <p>Currently researching machine learning applications with jupiter notebook. Looking into tensor operations
                   to speed up the calculation of large datasets.
               </p>
+              <a href={'https://github.com/isaacmichael/PythonMachineLearning'} target={'_blank'}>
+                  <button>Github Link</button>
+              </a>
           </div>
       </div>
           </section>
