@@ -312,6 +312,10 @@ img {
 
 /*general items */
 
+iframe {
+    width: 95%;
+}
+
 
 button {
     padding: 10px;
