@@ -129,24 +129,47 @@ function App() {
 
           <div className="item7">
               <p>Drone Photogrammetry</p>
-              <img src="https://th.bing.com/th/id/R.9a8bd0fa820cc069f049829e093c016e?rik=NvH0xe7mTUlgvQ&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f289-2896071_python-logo-png-165709.png&ehk=aW7Pb2gc%2bysSZQp61jQfl77%2fq7MPVUC%2fFeEA%2bQt0R5I%3d&risl=&pid=ImgRaw&r=0" alt=""
-                   loading="lazy" className="featured-img"></img>
-              <p>I am currently diving into machine learning applications with jupiter notebook. Looking into tensor operations
-                  to speed up the calculation of large datasets. I hope to gain a functional understanding of data Analysis and apply them to business and personal applications.
-                  My knowledge is surface level at the moment, but through Codecademy and my handy Kindle, I'm sure that I will make it far.
+              <img src={ortho} alt="" loading="lazy" className="featured-img"></img>
+              <p>
+                  Orthomosaic above was made in an open source project known as OpenDroneMap.
+                  This model took about ~700 photos to get important elevation maps and GLI maps.
               </p>
-              <a href={'https://github.com/isaacmichael/PythonMachineLearning'} target={'_blank'}>
-                  <button>Github Link</button>
-              </a>
+              <img src={gli} alt="" loading="lazy" className="featured-img"></img>
+              <p></p>
+              <img src={dsm} alt="" loading="lazy" className="featured-img"></img>
+              <p></p>
+              <iframe width="500" height="300" src="https://www.youtube.com/embed/5hgq2SEYpa0"
+                      title="YouTube video player" frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen>
+              </iframe>
+              <p>
+                  A model of Best-One Tire upland. Taken With a Phantom 4 Pro Drone
+                  Crosshatch survey consisting of ~500 photos for better 3D imaging.
+                  Mainly, I created this map for fun, but I also find it important to preserve the state of a given location with something
+                  more substantial than a photo. If a picture is worth a thousand words, I wonder what a 3D model is worth?
+              </p>
+              <iframe title="odm_textured_model_geo" frameBorder="0" allowFullScreen mozallowfullscreen="true"
+                      webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                      execution-while-out-of-viewport execution-while-not-rendered web-share
+                      src="https://sketchfab.com/models/4bcc4fc75afa4e35827e3910e035100e/embed">
+
+              </iframe>
           </div>
 
           <div className="item8">
               <p>CNC</p>
-              <img src="https://th.bing.com/th/id/R.9a8bd0fa820cc069f049829e093c016e?rik=NvH0xe7mTUlgvQ&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f289-2896071_python-logo-png-165709.png&ehk=aW7Pb2gc%2bysSZQp61jQfl77%2fq7MPVUC%2fFeEA%2bQt0R5I%3d&risl=&pid=ImgRaw&r=0" alt=""
-                   loading="lazy" className="featured-img"></img>
-              <p>I am currently diving into machine learning applications with jupiter notebook. Looking into tensor operations
-                  to speed up the calculation of large datasets. I hope to gain a functional understanding of data Analysis and apply them to business and personal applications.
-                  My knowledge is surface level at the moment, but through Codecademy and my handy Kindle, I'm sure that I will make it far.
+              <iframe  width="500" height="300" src="https://www.youtube.com/embed/Zz_SgvYye8Y"
+                      title="YouTube video player" frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen>
+              </iframe>
+              <p>
+                  Last Supper Relief Carving<br></br>
+                  <br></br>
+                  Here's a sped up version of my Shapeoko carving out a last supper scene.
+                  The .OBJ file for the project was taken from Etsy and the GRBL files were created using Vectric Vcarve.
+                  Total time to produce was around 6hrs with 4 bit changes.
               </p>
               <a href={'https://github.com/isaacmichael/PythonMachineLearning'} target={'_blank'}>
                   <button>Github Link</button>

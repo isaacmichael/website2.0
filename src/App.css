@@ -250,10 +250,13 @@ body {
 }
 
 img {
-    width: clamp(250px, 550px, 60%);
+    height: clamp(250px, auto, 20%);
+    width: clamp(250px, 850px, 70%);
     border-radius: inherit;
     opacity: inherit;
 }
+
+
 
 
 /*image adjustments */
