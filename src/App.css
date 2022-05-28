@@ -1,5 +1,5 @@
 :root {
-    --top-header : #154269;
+    --top-header : #ffffff;
     --cards : rgba(61, 57, 57, 0.87);
     --top-right : .75rem;
 
@@ -47,7 +47,7 @@ body {
     background-color: var(--top-header);
     opacity: 100%;
 
-    color: white;
+    color: #1e6698;
     box-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
     0 3px  30px rgba(0, 0, 0, 0.5);;
 
@@ -89,10 +89,19 @@ body {
     justify-self: left;
     padding-left: 25px;
 
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #000000,
-    0 3px  30px rgba(0, 0, 0, 0.5);
+}
+
+#jobDescription {
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 3;
+
+    font-size: 20px;
+    justify-self: left;
+    padding-left: 25px;
+
 
 }
+
 .introParagraph {
 
     display: flex;
@@ -166,17 +175,7 @@ body {
 
 }
 
-#jobDescription {
-    grid-row: 3 / span 1;
-    grid-column: 1 / span 3;
 
-    font-size: 20px;
-    justify-self: left;
-    padding-left: 25px;
-
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #000000,
-    0 3px  30px rgba(0, 0, 0, 0.5);
-}
 
 #intro {
     grid-row: 1 / span 3;
