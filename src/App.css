@@ -122,11 +122,6 @@ body {
     top: 0px;
     z-index: 4;
 
-
-
-
-
-
     background-image: url("./photos/field.jpg");
     filter: contrast(140%) brightness(100%);
 
@@ -141,12 +136,10 @@ body {
  }
 
 .introParagraph h1 {
-
-    font-size: 5rem;
+    font-size: 7rem;
 
     font-family: "Segoe UI";
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #000000,
-    0 3px  30px rgba(0, 0, 0, 100%);
+    text-shadow: 0 0px  90px rgba(0, 0, 0, 100%);
 
 }
 
@@ -195,8 +188,10 @@ body {
 .grid {
     z-index: 3;
     display: flex;
+
     align-content: center;
     justify-content: space-evenly;
+    flex-basis: 100%;
 
 
     flex-wrap: wrap;
@@ -411,11 +406,12 @@ button:hover {
 
 /* media section */
 @media screen and (min-width: 100px) and (max-width: 1000px) {
+
     #home {
-        font-size: 30px;
+        font-size: 40px;
     }
     #jobDescription {
-        font-size: 15px;
+        font-size: 25px;
     }
 
     #AWS, #DEPLOYMENT, #REACT {
