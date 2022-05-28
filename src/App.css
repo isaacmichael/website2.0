@@ -38,6 +38,8 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
 
+    font-weight: bold;
+
     width: 100vw;
     position: fixed;
 
@@ -168,11 +170,6 @@ body {
     position: sticky;
 
 
-
-
-
-
-
 }
 
 
@@ -210,9 +207,6 @@ body {
     background-color: var(--second-row);
     grid-gap: 40px;
 
-
-
-
 }
 
 .grid h1 {
@@ -227,7 +221,7 @@ body {
     box-shadow: 10px 10px 3em grey;
 }
 
-.item1, .item2, .item3, .item4, .item5, .item6 {
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
     width:20%;
 
     overflow-wrap: break-word;
@@ -256,7 +250,7 @@ body {
 }
 
 img {
-    width: clamp(50%, 350px, 90%);
+    width: clamp(250px, 550px, 60%);
     border-radius: inherit;
     opacity: inherit;
 }
@@ -319,7 +313,7 @@ img {
 button {
     padding: 10px;
 
-    width: clamp(50px, 25%, 300px);
+    width: clamp(100px, 25%, 300px);
 
     font-family: Arial;
 
@@ -439,7 +433,7 @@ button:hover {
         grid-gap: 2px;
     }
 
-    .item1, .item2, .item3, .item4, .item5, .item6 {
+    .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
         width: 100%;
 
     }
