@@ -322,9 +322,12 @@ button {
     width: clamp(100px, 25%, 300px);
 
     font-family: Arial;
+    font-weight: bolder;
 
     background-color: rgba(30, 102, 152, 0.72);
     font-size: clamp(10px, 1rem, 20px);
+
+    color: white;
 
 
 
