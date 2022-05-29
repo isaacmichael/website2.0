@@ -1,10 +1,10 @@
 :root {
     --top-header : #ffffff;
-    --cards : rgba(61, 57, 57, 0.87);
+    --cards : rgb(255, 255, 255);
     --top-right : .75rem;
 
     --first-row : white;
-    --second-row : #1e6698;
+    --second-row : #5ba2e5;
     --third-row : rgba(147, 127, 81, 0.57);
 }
 
@@ -226,7 +226,7 @@ body {
     font-size: 19px;
     text-align: justify-all;
 
-    text-shadow: 1px 1px 0px #000000;
+
     margin-bottom: 35px;
     opacity: 90%;
     background-color: var(--cards);
@@ -234,7 +234,7 @@ body {
 
     border-radius: 5px;
 
-    color: #ffffff;
+    color: #000000;
 
 
     box-shadow: 7px 7px 2px black;
@@ -247,11 +247,13 @@ body {
     border-radius 1ms linear 1s;
 }
 
-img {
+#pic {
     width: clamp(250px, 850px, 70%);
     border-radius: inherit;
     opacity: inherit;
 }
+
+
 
 
 
@@ -321,7 +323,7 @@ button {
 
     font-family: Arial;
 
-    background-color: white;
+    background-color: rgba(30, 102, 152, 0.72);
     font-size: clamp(10px, 1rem, 20px);
 
 
@@ -359,7 +361,7 @@ button {
 
 button:hover {
     width: 27%;
-    border: 2px solid rgba(0, 0, 0, 0.76);
+
 
 }
 
@@ -439,7 +441,7 @@ button:hover {
     }
 
     .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
-        width: 100%;
+        width: 90%;
 
     }
 
