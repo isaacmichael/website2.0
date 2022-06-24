@@ -4,7 +4,7 @@
     --top-right : .75rem;
 
     --first-row : white;
-    --second-row : #5ba2e5;
+    --second-row : #2C7CB0;
     --third-row : rgba(147, 127, 81, 0.57);
 }
 
@@ -49,7 +49,7 @@ body {
     background-color: var(--top-header);
     opacity: 100%;
 
-    color: #1e6698;
+    color: #181E34;
     box-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
     0 3px  30px rgba(0, 0, 0, 0.5);;
 
